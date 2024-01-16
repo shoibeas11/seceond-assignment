@@ -1241,4 +1241,31 @@ form button{
 
 /*Newsletter end*/
 
+/*footer style start*/
+
+    
+    
+    
+    .icon{
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 140px;
+    }
+    
+    .seceondline{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    
+    .copy{
+        padding-top: 50px;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        color: #131318;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    /*footer end*/
+
 }
