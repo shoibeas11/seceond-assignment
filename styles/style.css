@@ -182,6 +182,8 @@ form button i{
 }
 
 .popular-discription{
+    width: 100%;
+    height: auto;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     padding-top: 25px;
@@ -850,3 +852,393 @@ background: rgba(19, 19, 24, 0.05);
 }
 
 /*footer end*/
+
+
+
+
+
+
+
+
+/*Responsive section*/
+
+@media screen and (max-width: 576px){
+    /* Nav Style Start*/
+
+nav{
+    padding: 20px 30px;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav div img{
+    width: 28px;
+    height: 28px;
+}
+
+nav p{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+nav p span{
+    font-size: 20px;
+}
+
+nav ul li{
+   display: none;
+}
+
+
+.bar{
+    font-size: 30px;
+    display: block;
+}
+
+/* Nav Style End*/
+
+
+/* Header Style Start */
+
+
+
+.header-img{
+    width: 90%;
+    height: 700px;
+    margin-left: 5%;
+}
+
+.header-title{
+    color: #FFF;
+    padding-top: 60px;
+    font-size: 34px;
+}
+
+.header-discription{
+    color: #FFF;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+form{
+    width: 80%;
+    height: auto;   
+    margin-left: 40px;
+    margin-top: 60px;
+    display: grid;
+}
+
+form label, button{
+    margin-top: 20px;
+}
+
+form button{
+    margin-bottom: 20px;
+}
+
+
+form button{
+    width: 174px;
+}
+
+/* Header Style End */
+
+
+
+/* Popular Style Start*/
+
+
+.popular{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    display: grid;
+}
+
+.popular-section{
+    width: 100%;
+    height: auto;
+}
+
+.popular-title{
+    width: 100%;
+    font-size: 28px;
+}
+
+.popular-discription{
+    width: 100%;
+    height: auto;
+}
+
+.popular ul{
+    width: 100%;
+}
+
+.seceond-popular-discription{
+    width: 100%;
+}
+
+.popular-btn{
+    margin-top: 38px;
+    margin-bottom: 40px;
+}
+
+.popular img{
+    width: 90%;
+    height: auto;
+}
+
+/* Popular Style End */
+
+/* Destination Style Start*/
+
+.destination-discription{
+    padding-right: 10px;
+}
+
+.first-row{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    display: grid;
+}
+
+.first{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.seceond{
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.seceond-row{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    display: grid;
+}
+
+.thired{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.fourth{
+    width: 93%;
+    height: 300px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.fifth{
+    width: 93%;
+    height: 300px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.thired-row{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    display: grid;
+}
+
+.six{
+    width: 93%;
+    margin-left: 0px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+.seven{
+    width: 93%;
+    margin-left: 0px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+/* Destination Style End*/
+
+/* Choose Style Start*/
+
+
+.first-choose{
+    margin-left: 10px;
+    margin-top: 48px;
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+
+.first-first-choose{
+    width: 90%;
+    margin-right: 5%;
+    height: auto;
+}
+
+
+.first-first-choose-discription{
+    padding-bottom: 32px;
+}
+
+.first-seceond-choose{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 0px;
+    height: auto;
+}
+
+
+
+
+.first-seceond-choose-discription{
+    padding-bottom: 32px;
+}
+
+.seceond-choose{
+    margin-left: 10px;
+    margin-top: 48px;
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+
+.seceond-first-choose{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 0px;
+    height: auto;
+}
+
+.seceond-first-choose-discription{
+    padding-bottom: 32px;
+}
+
+/* Choose Style End*/
+
+/*location section*/
+
+.location{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 1px;
+}
+
+.location-title{
+    font-size: 30px;
+}
+
+.japan{
+    width: 350px;
+    height: 440px;
+    transform: rotate(0.628deg);
+}
+
+.dubai{
+    width: 100%;
+    height: 440px;
+    margin-top: 20px;
+    transform: rotate(0.628deg);
+}
+
+.popular-location{
+    width: 100%;
+    margin-left: 1px;
+    display: grid;
+    height: auto;
+}
+
+
+.new{
+    width: 100%;
+    height: 440px;
+    margin-top: 20px;
+    transform: rotate(0.628deg);
+}
+
+
+.qatar{
+    width: 100%;
+    height: 440px;
+    margin-top: 20px;
+    transform: rotate(0.628deg);
+}
+
+/*location section end*/
+
+
+/* Newsletter style start*/
+
+.Newsletter{
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-top: 100px;
+    margin-left: 1px;
+}
+
+.Newsletter-form{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 90%;
+    margin-left: 5px;
+    height: auto;
+}
+
+
+
+.Newsletter-btn{
+    margin-bottom: 20px;
+}
+
+.Newsletter-btn a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Newsletter-div{
+    width: 90%;
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.rotate{
+    width: 60%;
+    height: auto;
+    margin-top: 270px;
+    margin-left: 35%;
+}
+
+.rotate-title{
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.rotate-discription{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+/*Newsletter end*/
+
+}
