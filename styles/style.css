@@ -551,115 +551,6 @@ form button i{
 /* Choose Style End*/
 
 
-
-
-
-/*location section*/
-
-.location{
-    width: 1300px;
-    background: rgba(41, 206, 246, 0.05);
-    height: 900px;
-    margin-top: 40px;
-    margin-left: 100px;
-}
-
-.location-title{
-    color: #131318;
-    padding-top: 80px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.popular-location{
-    width: 1100px;
-    margin-left: 100px;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    height: 60%;
-}
-
-.japan{
-    width: 23%;
-    height: 100%;
-    transform: rotate(-10.628deg);
-    background-image: url('../Images/caption.jpg');
-    border-radius: 16px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.japan p{
-    color: #FFF;
-    text-align: center;
-    align-items: center;
-    padding-top: 140px;
-    font-size: 28px;
-    font-weight: 800;
-}
-
-.dubai{
-    width: 23%;
-    height: 100%;
-    transform: rotate(-10.628deg);
-    background-image: url('../Images/dubai.webp');
-    border-radius: 16px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.dubai p{
-    color: #FFF;
-    text-align: center;
-    align-items: center;
-    padding-top: 140px;
-    font-size: 28px;
-    font-weight: 800;
-}
-
-.new{
-    width: 23%;
-    height: 100%;
-    transform: rotate(-10.628deg);
-    background-image: url('../Images/new\ yourk.jpg');
-    border-radius: 16px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.new p{
-    color: #FFF;
-    text-align: center;
-    align-items: center;
-    padding-top: 140px;
-    font-size: 28px;
-    font-weight: 800;
-}
-
-.qatar{
-    width: 23%;
-    height: 100%;
-    transform: rotate(-10.628deg);
-    background-image: url('../Images/dubai.webp');
-    border-radius: 16px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.qatar p{
-    color: #FFF;
-    text-align: center;
-    align-items: center;
-    padding-top: 140px;
-    font-size: 28px;
-    font-weight: 800;
-}
-
-
-/*location section end*/
-
 /* Newsletter style start*/
 
 .Newsletter{
@@ -785,6 +676,73 @@ form button i{
 /*Newsletter end*/
 
 
+/* video section start */
+
+.video{
+    width: 1300px; ;
+    height:410px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-text , .video-img{
+    width: 50%;
+    height: 100%;
+}
+
+
+.video-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.video-discription{
+    color: rgba(19, 19, 24, 0.70);
+    padding-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.video ul{
+    color: black;
+    padding-left: 20px;
+    padding-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.video-btn{
+    margin-top: 38px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.video-btn a{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.video-img{
+    background-image: url('../Images/new\ yourk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+
+/* video section end*/
+
+
 
 
 /*footer style start*/
@@ -826,19 +784,20 @@ background: rgba(19, 19, 24, 0.05);
 }
 
 .icon{
-    width: 175px;
+    width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+    justify-content: center;
     margin-top: 32px;
-    margin-left: 650px;
 }
 
 .seceondline{
     width: 70%;
     height: 1px;
     margin-top: 30px;
-    margin-left: 240px;
+    margin-left: 15%;
     background: rgba(19, 19, 24, 0.10);
 }
 
@@ -862,7 +821,7 @@ background: rgba(19, 19, 24, 0.05);
 
 /*Responsive section*/
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 600px){
     /* Nav Style Start*/
 
 nav{
@@ -991,6 +950,7 @@ form button{
 
 .popular img{
     width: 90%;
+    margin-left: 5%;
     height: auto;
 }
 
@@ -1003,7 +963,7 @@ form button{
 }
 
 .first-row{
-    margin-left: 10px;
+    margin-left: 5%;
     margin-top: 30px;
     width: 90%;
     height: auto;
@@ -1024,7 +984,7 @@ form button{
 }
 
 .seceond-row{
-    margin-left: 10px;
+    margin-left: 5%;
     margin-top: 10px;
     width: 90%;
     height: auto;
@@ -1052,7 +1012,7 @@ form button{
 }
 
 .thired-row{
-    margin-left: 10px;
+    margin-left: 5%;
     margin-top: 10px;
     width: 90%;
     height: auto;
@@ -1081,16 +1041,15 @@ form button{
 
 
 .first-choose{
-    margin-left: 10px;
     margin-top: 48px;
-    width: 100%;
+    margin-left: 5%;
+    width: 90%;
     height: auto;
     display: grid;
 }
 
 .first-first-choose{
-    width: 90%;
-    margin-right: 5%;
+    width: 100%;
     height: auto;
 }
 
@@ -1100,9 +1059,9 @@ form button{
 }
 
 .first-seceond-choose{
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: -5px;
     height: auto;
 }
 
@@ -1114,15 +1073,15 @@ form button{
 }
 
 .seceond-choose{
-    margin-left: 10px;
+    margin-left: 5%;
     margin-top: 48px;
-    width: 100%;
+    width: 90%;
     height: auto;
     display: grid;
 }
 
 .seceond-first-choose{
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
     margin-left: 0px;
     height: auto;
@@ -1134,56 +1093,6 @@ form button{
 
 /* Choose Style End*/
 
-/*location section*/
-
-.location{
-    width: 100%;
-    height: auto;
-    margin-top: 40px;
-    margin-left: 1px;
-}
-
-.location-title{
-    font-size: 30px;
-}
-
-.japan{
-    width: 350px;
-    height: 440px;
-    transform: rotate(0.628deg);
-}
-
-.dubai{
-    width: 100%;
-    height: 440px;
-    margin-top: 20px;
-    transform: rotate(0.628deg);
-}
-
-.popular-location{
-    width: 100%;
-    margin-left: 1px;
-    display: grid;
-    height: auto;
-}
-
-
-.new{
-    width: 100%;
-    height: 440px;
-    margin-top: 20px;
-    transform: rotate(0.628deg);
-}
-
-
-.qatar{
-    width: 100%;
-    height: 440px;
-    margin-top: 20px;
-    transform: rotate(0.628deg);
-}
-
-/*location section end*/
 
 
 /* Newsletter style start*/
@@ -1200,7 +1109,7 @@ form button{
     border-radius: 16px;
     border: 1px solid #FF5400;
     width: 90%;
-    margin-left: 5px;
+    margin:auto ;
     height: auto;
 }
 
@@ -1218,7 +1127,7 @@ form button{
 .Newsletter-div{
     width: 90%;
     height: 400px;
-    margin-left: 5px;
+    margin-left: 5%;
     margin-top: 20px;
 }
 
@@ -1241,20 +1150,58 @@ form button{
 
 /*Newsletter end*/
 
+
+/* video section start */
+
+.video{
+    width: 100% ;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 10px;
+    display: grid;
+}
+
+.video-text , .video-img{
+    width: 100%;
+    display: grid;
+    height: auto;
+}
+
+
+.video-title{
+    font-size: 30px;
+}
+
+.video-discription{
+    padding-left: 10px;
+}
+
+
+.video-img{
+   width: 98%;
+   height: 300px;
+   margin-top: 40px;
+}
+
+
+/* video section end*/
+
+
+
 /*footer style start*/
 
-    
-    
-    
-    .icon{
-        margin-left: 100px;
-        margin-top: 50px;
-        width: 140px;
+    .footer{
+        height: auto;
     }
+
+    .image{
+        width: 100%;
+        justify-content: center;
+    }
+
     
     .seceondline{
         margin-top: 20px;
-        margin-left: 50px;
     }
     
     .copy{
@@ -1263,6 +1210,7 @@ form button{
         font-family: "Inter", sans-serif;
         color: #131318;
         font-size: 16px;
+        padding-bottom: 30px;
         font-weight: 300;
     }
     
